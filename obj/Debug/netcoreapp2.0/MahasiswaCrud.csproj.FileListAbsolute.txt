@@ -1,0 +1,10 @@
+/home/bigdick/Documents/MahasiswaCrud/bin/Debug/netcoreapp2.0/MahasiswaCrud.deps.json
+/home/bigdick/Documents/MahasiswaCrud/bin/Debug/netcoreapp2.0/MahasiswaCrud.runtimeconfig.json
+/home/bigdick/Documents/MahasiswaCrud/bin/Debug/netcoreapp2.0/MahasiswaCrud.runtimeconfig.dev.json
+/home/bigdick/Documents/MahasiswaCrud/bin/Debug/netcoreapp2.0/MahasiswaCrud.dll
+/home/bigdick/Documents/MahasiswaCrud/bin/Debug/netcoreapp2.0/MahasiswaCrud.pdb
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.csproj.CoreCompileInputs.cache
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.AssemblyInfoInputs.cache
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.AssemblyInfo.cs
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.dll
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.pdb
