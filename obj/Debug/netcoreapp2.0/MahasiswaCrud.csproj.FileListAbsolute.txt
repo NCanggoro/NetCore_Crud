@@ -8,3 +8,4 @@
 /home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.AssemblyInfo.cs
 /home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.dll
 /home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.pdb
+/home/bigdick/Documents/MahasiswaCrud/obj/Debug/netcoreapp2.0/MahasiswaCrud.csprojResolveAssemblyReference.cache

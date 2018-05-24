@@ -40,7 +40,7 @@ namespace MahasiswaCrud.Controllers
         public IActionResult Edit(Mahasiswa model)
         {
             if(!ModelState.IsValid) return View(model);
-            _context.Add(model);
+            _context.Mahasiswas.Update(model);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
