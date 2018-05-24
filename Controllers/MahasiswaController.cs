@@ -14,7 +14,8 @@ namespace MahasiswaCrud.Controllers
         }
         public IActionResult Index()
         {
-            var mhsw = _context.Mahasiswas.ToList();
+            var mhsw = _context.Mahasiswas.OrderByDescending(m => m.Id)
+            .ToList();
             return View(mhsw);
         }
         [HttpGet]
@@ -33,7 +34,7 @@ namespace MahasiswaCrud.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var mhs = _context.Mahasiswas.Find(id);
+            var mhs = _context.Mahasiswas.SingleOrDefault(m => m.Id == id);
             return View(mhs);
         }
         [HttpPost]
@@ -47,7 +48,7 @@ namespace MahasiswaCrud.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var mhs = _context.Mahasiswas.Find(id);
+            var mhs = _context.Mahasiswas.FirstOrDefault(m => m.Id == id);
             _context.Mahasiswas.Remove(mhs);
             _context.SaveChanges();
             return RedirectToAction("Index");
